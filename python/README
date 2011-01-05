@@ -1,0 +1,3 @@
+This is a simple set of Python wrappers for Greg Grothaus's PQ trees library (https://github.com/Gregable/pq-trees). Use the standard distutils commands to build and install, or see Makefile for shortcuts.
+
+
