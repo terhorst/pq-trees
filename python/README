@@ -1,3 +1,5 @@
-This is a simple set of Python wrappers for Greg Grothaus's PQ trees library (https://github.com/Gregable/pq-trees). Use the standard distutils commands to build and install, or see Makefile for shortcuts.
+This is a simple set of Python wrappers for Greg Grothaus's PQ trees library (https://github.com/Gregable/pq-trees). Use the standard distutils commands to build and install.
+
+Note to Sage users: the standard integer types are overloaded in the Sage shell, and this causes problem with the Python <-> C++ type conversion routines built in to SWIG. In English, this means that typing "sage: pqtree.PQTree([1,2,3])" will fail with a scary-looking error message. As a workaround, use e.g. "sage: pqtree.PQTree(map(int, [1,2,3]))".
 
 
